@@ -1,0 +1,179 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    box-sizing: border-box;
+    /* background-color: #640a0a93; */
+}
+#logo{
+    width: 150px;
+}
+#head{
+    background-color:#640a0a ;
+}
+.active{
+    font-size: x-large;
+}
+.cont{
+    padding: 0%;
+}
+.carol{
+    /* width: 90%; */
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(194, 204, 204, 0.3);
+}
+.widers{
+    width: 80%;
+    margin: auto;
+}
+p{
+    padding-left: 10px;
+    font-weight: bolder;
+}
+h2{
+    text-align: center;
+}
+.ser{
+    padding: 20px;
+}
+#see{
+    display:flex;
+    justify-content: center;
+    /* width: 10%; */
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #640a0a;
+}
+.text{
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+}
+#folo{
+    width: 15%;
+}
+.foot{
+    color: white;
+    background-color: #640a0a;
+}
+
+#abot{
+    margin-bottom: 10px;
+}
+#se{
+    text-decoration: none;
+    color: white;
+}
+/* management */
+.staff{
+    display: flex;
+    justify-content: center;
+}
+#founder{
+    background-color: #640a0a;
+
+}
+.ud img{
+    align-self: center;
+}
+.ud{
+    margin: 10px;
+}
+#bgim{
+    opacity: 0.7;
+}
+.team #man{
+    align-self: flex-end;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.team{
+    margin-bottom: 30px;
+}
+#collapse{
+    display: none;
+}
+#collaps , #collap , #colla{
+    display: none;
+}
+.more{
+    text-align: justify;
+}
+hr{
+    height: 10px;
+    font-size: xx-large;
+}
+label{
+    color: white;
+}
+/* Direct.html */
+.dir{
+    background-color: bisque;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Cement */
+.barell{
+    background-image: url(../image/Pic-1.jpg);
+    height: 200px;
+    background: cover;
+}
+.barel{
+    background-image: url(../image/LeadRecycling.jpg);
+}
+.bare{
+    background-image: url(../image/pexels-zukiman-mohamad-87236.jpg);
+}
+
+/* Loder */
+.loader-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    background-color: #640a0a;
+    min-height: 100vh;
+    z-index: 2000;
+    width: 100%;
+}
+.loader{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: loader 2s linear infinite;
+}
+@keyframes loader {
+    0%{
+        transform: rotate(0deg);
+        box-shadow: 1px 5px 2px green;
+    }
+    50%{
+        transform: rotate(180deg);
+        box-shadow: 1px 5px 2px rgb(13, 0, 128);
+    }
+    100%{
+        transform: rotate(360deg);
+        box-shadow: 1px 5px 2px #d6d4d4;
+    }
+    
+}
+.loader:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(241, 239, 239, 0.904);
+    border-radius: 50%;
+}
+.gro{
+    width: 70%;
+}
